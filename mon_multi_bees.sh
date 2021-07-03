@@ -3,6 +3,7 @@
 # function   监控多个bee运行状态
 # 依赖：mutt msmtp
 #
+#
 # touch /root/sh/mon_multi_bees.sh; chmod 700 /root/sh/mon_multi_bees.sh
 # crontab:
 # 00,05,10,15,20,25,30,35,40,45,50,55 * * * * root /root/sh/mon_multi_bees.sh default >> /root/sh/logs/mon_multi_bees.log 2>&1
